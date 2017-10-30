@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.savaari.TestCases.Find_Max_Car_Rental">
+        <methods>
+          <include name="find_Max_Car_Rental"/>
+          <include name="browser_Launch"/>
+        </methods>
+      </class> <!-- com.savaari.TestCases.Find_Max_Car_Rental -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
