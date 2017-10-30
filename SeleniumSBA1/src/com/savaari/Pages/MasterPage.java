@@ -12,6 +12,7 @@ public class MasterPage {
 	
 	public FileInputStream load(String filelocation) throws IOException
 	{
+	System.out.println("Ashwini");
 		FileInputStream fis=new FileInputStream(filelocation);
 		return fis;
 	}
