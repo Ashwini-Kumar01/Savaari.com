@@ -11,6 +11,7 @@ public class HomePage extends MasterPage{
 	
 	public void searchcar(WebDriver driver) throws IOException
 	{
+System.out.printLn("Ashwini");
 		this.driver=driver;
 		senddata("FromCity_TextBox", "Bangalore");
 		click("FromCitySelection_Dropdown");
